@@ -3,7 +3,7 @@
 	{% if page.url == '/index.html' or page.url == '/' %}
 		{% assign link = '/about' %}
 		{% assign prompt = 'About the Author' %}
-	{% elif page.url == '/about' %}
+	{% elseif page.url == '/about' %}
 		{% assign link = '/assets/RZ-resume' %}
 		{% assign prompt = 'Resume' %}
 	{% else %}
