@@ -25,7 +25,7 @@ github_username:  "trexwithoutt"
 
 # Site Settings
 url:                https://trexwithoutt.github.io/ # main url
-baseurl:            /profile # for gh-pages
+baseurl:            # for gh-pages
 permalink:          /notes/:title # Post permalink
 timezone:           America/Chicago # Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to false to disable
