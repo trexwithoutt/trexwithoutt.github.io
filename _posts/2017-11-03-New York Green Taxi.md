@@ -314,6 +314,7 @@ In order to have a better understanding of the dataset and to find the most sign
 ```r
 histogram(trn$Tip_ratio, breaks = 20)
 ```
+[<img src="/assets/trn_hist.png" class="fit image"> ](https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master/assets/trn_hist.png)
 
 The following plots will explore the relationship of the feature variables with the response variable.
 ```r
@@ -351,6 +352,7 @@ gbm_tune = train(Tip_ratio ~ ., data = trn,
 result = summary(gbm_tune)
 result[1:5, ]
 ```
+[<img src="/assets/Importance.png" class="fit image"> ](https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master/assets/Importance.png)
 
 The above information shows that `Tip_amount`, `Fare_amount`, `Total_amoungt` and `Trip_distance` are the best predictors. We will consider these 4 predictors for the following methods.
 
