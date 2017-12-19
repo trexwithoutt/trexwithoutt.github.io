@@ -24,8 +24,8 @@ pinterest_username: "rex0138"
 github_username:  "trexwithoutt"
 
 # Site Settings
-url:                https://heiswayi.nrird.com # main url
-baseurl:            /the-plain # for gh-pages
+url:                https://trexwithoutt.github.io/ # main url
+baseurl:            #/the-plain # for gh-pages
 permalink:          /notes/:title # Post permalink
 timezone:           America/Chicago # Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to false to disable
