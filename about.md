@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: [About](http://trexwithoutt.github.io/assets/RZ-Resume.pdf)
 ---
 
 # Intro
