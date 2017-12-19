@@ -137,7 +137,7 @@ ggplot(df, aes(hour, Trip_distance, colour=source)) +
 **Trip vs. Airports**
 
 There are three airports locate at new york city area, JFK, LGA, and Newark. According to the
-[data dictionary] (http://www.nyc.gov/html/tlc/downloads/pdf/data_dictionary_trip_records_green.pdf), we can determine if a trip was going to JFK and Newark by idenify the RateCodeID, where `2` is JFK and `3` is Newark. To find out trips that were going to LGA, I decided to figure out the location of the destination, since the dropoff longitude and latitude are given. We can easily find the boundary of longitude and latitude of LGA by going to this [website](http://www.get-direction.com/address-to-lat-long.html?place=laguardia%20airport%20entrance%2C%20east%20elmhurst%2C%20ny%2C%20united%20states)
+[data dictionary](http://www.nyc.gov/html/tlc/downloads/pdf/data_dictionary_trip_records_green.pdf), we can determine if a trip was going to JFK and Newark by idenify the RateCodeID, where `2` is JFK and `3` is Newark. To find out trips that were going to LGA, I decided to figure out the location of the destination, since the dropoff longitude and latitude are given. We can easily find the boundary of longitude and latitude of LGA by going to this [website](http://www.get-direction.com/address-to-lat-long.html?place=laguardia%20airport%20entrance%2C%20east%20elmhurst%2C%20ny%2C%20united%20states)
 
 ```r
 ### JFK
