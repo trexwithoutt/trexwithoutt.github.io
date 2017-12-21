@@ -42,5 +42,3 @@ title: About
 * Rex himself conducted several projects: *Machine Learning with NFL score prediction*, *Google Earth KML*, *[Mock NBA](https://mpcs53001.cs.uchicago.edu/~rzhou12/SemiFinal.html)*.
  
 
-
-**By clicking profile to open my resume**
