@@ -6,6 +6,8 @@ title: About
 
 Roses are <span style="color:red">red</span>, violets are <span style="color:blue">blue</span>
 
+<br>
+
 # Intro
 
 *Rex is a crazily starting fan in data science, machine learning and deep learning, and would like to get acquintanced more in those areas* 
