@@ -4,9 +4,7 @@ title: About
 ---
 [Resume](http://trexwithoutt.github.io/assets/RZ-Resume.pdf)
 
-<h1>
-<span style=“color:grey;”> text goes here</span>
-</h1>
+Roses are <span style="color:red">red</span>, violets are <span style="color:blue">blue</span>
 
 # Intro
 
