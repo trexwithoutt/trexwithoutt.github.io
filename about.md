@@ -1,7 +1,12 @@
 ---
 layout: page
-title: [About](http://trexwithoutt.github.io/assets/RZ-Resume.pdf)
+title: About 
 ---
+[Resume](http://trexwithoutt.github.io/assets/RZ-Resume.pdf)
+
+<h1>
+<span style=“color:gray;”> text goes here</span>
+</h1>
 
 # Intro
 
