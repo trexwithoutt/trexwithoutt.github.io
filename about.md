@@ -5,7 +5,7 @@ title: About
 [Resume](http://trexwithoutt.github.io/assets/RZ-Resume.pdf)
 
 <h1>
-<span style=“color:gray;”> text goes here</span>
+<span style=“color:grey;”> text goes here</span>
 </h1>
 
 # Intro
