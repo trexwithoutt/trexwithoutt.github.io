@@ -4,27 +4,29 @@ title: About
 ---
 [Resume](http://trexwithoutt.github.io/assets/RZ-Resume.pdf)
 
-<h1> <span style="color:gray">Intro</span></h1>
-
 <br>
 
-# Intro
+<h1> <span style="color:gray">Intro</span></h1>
 
 *Rex is a crazily starting fan in data science, machine learning and deep learning, and would like to get acquintanced more in those areas* 
 
-# Education
+
+<h1> <span style="color:gray">Education</span></h1>
 
 * Rex Zhou is currently a master student in **computer science** at **University of Chicago** focusing to **Data Science**
 
 * Before he started his graduate student career, he attended to **University of Illinois at Urbana Champaign** studied **statistics** with a highest distinction and **mathmatics**
 
-# Coding
+<h1> <span style="color:gray">Coding</span></h1>
 
 * Advanced: Python, R, LaTex, Markdown
+
 * Intermediate: MySQL, Java
+
 * Familiar With: Ruby, PHP, HTML, Tableau, Hadoop, Spark
 
-# Vocational
+
+<h1> <span style="color:gray">Vocational</span></h1>
 
 * Rex worked as a **algorithmic data analyst intern** at **Haier Corporation Group** in 2017. The major role taking in this position is looking for algorithms detecting anomalies in datasets and organized algorithms into a screening system to be friendly-used by clients
 
@@ -32,7 +34,8 @@ title: About
 
 * His first internship happened back to 2014 in Hangzhou, China, where he positioned in **research assistant intern** at **Zhejiang University**. The research was studying on local machinary industry and making predictions on future expecting trend
 
-# Research & Project
+
+<h1> <span style="color:gray">Research & Project</span></h1>
 
 * Rex was a member of **Connecting algebraic geometry to phylogenies via singular value decomposition** Group (supervised by [Dr. Ruth Davidson](https://faculty.math.illinois.edu/~redavid2/)) as well as a co-worker on **Algebraic and Combinatorial Computational Biology** 
 
