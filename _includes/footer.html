@@ -1,9 +1,5 @@
-<!-- <div class="footer"> -->
+<div class="footer">
 <!--   <span class="block">&lt;/&gt; <a href="http://github.com/heiswayi/the-plain" title="a minimalist Jekyll theme for personal blog">The Plain theme</a> by <a href="http://heiswayi.github.io">Heiswayi Nrird</a>.</span> -->
-<!--   <span class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author_name }}</span>
-</div> --> 
-
-<footer id="footer">
     <ul class="icons">
       {% if site.facebook_username %}
       <li><a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -33,4 +29,6 @@
     <ul class="copyright">
       <li>&copy; {{ site.copyright }}</li><li>Design: <a href="http://www.mollyma.com/" target="_blank">22</a></li>
     </ul>
-  </footer>
+    <span class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author_name }}</span>
+</div> 
+
