@@ -4,7 +4,7 @@ title: About
 ---
 [Resume](http://trexwithoutt.github.io/assets/RZ-Resume.pdf)
 
-Roses are <span style="color:red">red</span>, violets are <span style="color:blue">blue</span>
+<h1> <span style="color:gray">Intro</span></h1>
 
 <br>
 
