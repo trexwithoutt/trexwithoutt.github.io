@@ -1,5 +1,5 @@
 ---
-title: "Data Visualization • Mama's Sunshine and Daddy's Rain"
+title: "Mama's Sunshine and Daddy's Rain"
 author: "REX(RUIZHE) ZHOU"
 categories: project
 date: "11/10/2016"
