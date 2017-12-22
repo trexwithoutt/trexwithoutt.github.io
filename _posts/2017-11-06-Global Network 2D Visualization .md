@@ -2,7 +2,7 @@
 title: "Global 2D Network Visualization"
 author: "REX(RUIZHE) ZHOU"
 categories: visual
-date: "11/6/2017"
+date: "6/11/2017"
 ---
 
 **Introduction**
