@@ -1,7 +1,7 @@
 ---
 title: "Mama's Sunshine and Daddy's Rain"
 author: "REX(RUIZHE) ZHOU"
-categories: project
+categories: visual
 date: "11/10/2016"
 ---
 
