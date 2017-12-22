@@ -1,5 +1,5 @@
 ---
-title: "*Data Visualization* • Global 2D Network Visualization"
+title: "Global 2D Network Visualization"
 author: "REX(RUIZHE) ZHOU"
 categories: project
 ---
