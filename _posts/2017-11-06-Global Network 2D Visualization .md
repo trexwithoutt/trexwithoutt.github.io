@@ -1,5 +1,5 @@
 ---
-title: "<span style="color: #A9A9A9; font-family: Babas; font-size: 2em;">Data Visualization</span> • Global 2D Network Visualization"
+title: "*<span style="color:gray">Data Visualization</span>* • Global 2D Network Visualization"
 author: "REX(RUIZHE) ZHOU"
 categories: project
 ---
