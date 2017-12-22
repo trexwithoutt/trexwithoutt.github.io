@@ -1,7 +1,7 @@
 ---
 title: "New York Green Taxi"
 author: "REX(RUIZHE) ZHOU"
-categories: project
+categories: analysis
 date: "11/3/2017"
 ---
 
