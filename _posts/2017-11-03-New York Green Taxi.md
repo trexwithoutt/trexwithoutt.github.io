@@ -1,5 +1,5 @@
 ---
-title: "Data Analysis • New York Green Taxi"
+title: "New York Green Taxi"
 author: "REX(RUIZHE) ZHOU"
 categories: project
 date: "11/3/2017"
