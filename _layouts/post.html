@@ -3,29 +3,12 @@ layout: default
 ---
 
 <article>
-	<div class="left">
-		<ul class="icons">
-		{% if site.facebook_username %}
-      		<li><a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" class="icon fa-facebook"><img src="{{ site.github.url }}/assets/icon/fb.png" style="width:30px;height:30px;"/></a></li>
-      		{% endif %}
-      		{% if site.linkedin_username %}
-     		<li><a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" class="icon fa-linkedin"><img src="{{ site.github.url }}/assets/icon/in.png" style="width:30px;height:30px;"/></a></li>
-      		{% endif %}
-      		{% if site.pinterest_username %}
-      		<li><a href="https://pinterest.com/{{ site.pinterest_username }}" target="_blank" class="icon fa-pinterest"><img src="{{ site.github.url }}/assets/icon/pin.png" style="width:30px;height:30px;"/></a></li>
-      		{% endif %}
-      		{% if site.github_username %}
-      		<li><a href="https://github.com/{{ site.github_username }}" target="_blank" class="icon fa-github"><img src="{{ site.github.url }}/assets/icon/git.png" style="width:30px;height:30px;"/></a></li>
-      		{% endif %}
-      		{% if site.email %}
-      		<li><a href="mailto:{{ site.email }}" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-      		{% endif %}
-    		</ul>
-	</div>
-
 
 	<div class="center">
 		<h1>{{ page.title }}</h1>
+		<p>
+			{% if page.categories %} on <i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }}.{% endif %}
+		</p>
 		<time>{{ page.date | date: '%B %-d, %Y' }}</time>
 	</div>
 
