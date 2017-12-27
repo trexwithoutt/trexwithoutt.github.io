@@ -18,7 +18,7 @@ This project is basic using of `save_map` function to create network and display
 
 **Output**
 
-[<img src="/assets/network2d1.gif" class="fit image">]({{ "/assets/network2d.gif" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
+[<img src="/assets/network2d1.gif" class="fit image">]({{ "/assets/network2d1.gif" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
 
 
 **Programming**
