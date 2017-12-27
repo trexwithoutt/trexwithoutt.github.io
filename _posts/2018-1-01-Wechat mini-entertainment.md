@@ -36,7 +36,8 @@ itchat.login()
 friends = itchat.get_friends(update=True)[0: ]
 ```
 
-<img src="/assets/sec1.png" class="fit image">
+[<img src="/assets/sec1.png" class="fit image">]({{ "/assets/sec1.png" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
+
 
 2. 
 
@@ -81,7 +82,8 @@ plt.title('Wechat Sex Ratio Visualization')
 plt.show()
 
 ```
-<img src="/assets/ratio.png" class="fit image">
+[<img src="/assets/ratio.png" class="fit image">]({{ "/assets/ratio.png" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
+
 
 [<img src="/assets/barplot.png" class="fit image">]({{ "/assets/barplot.png" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
 
@@ -124,9 +126,9 @@ plt.imshow(my_wordcloud)
 plt.axis("off")
 plt.show()
 ```
-<img src="/assets/sec2.png" class="fit image">
+[<img src="/assets/sec2.png" class="fit image">]({{ "/assets/sec2.png" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
 
 [<img src="/assets/wordcloud.png" class="fit image">]({{ "/assets/wordcloud.png" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
 
-<img src="/assets/logout.png" class="fit image">
+[<img src="/assets/logout.png" class="fit image">]({{ "/assets/logout.png" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
 
