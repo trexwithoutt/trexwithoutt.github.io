@@ -43,7 +43,7 @@ cols = dim(y)[2]
 
 - Based on the overview above, we can easily see that there are `r rows` observation and `r cols` variables
 
-** Visual On Vriable `Trip Distance`**
+**Visual On Vriable `Trip Distance`**
 
 ```r
 ggplot(data = y, aes(y$Trip_distance)) +
