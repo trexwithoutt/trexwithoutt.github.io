@@ -19,21 +19,21 @@ The `Elo rating system` is a method for calculating the relative skill levels of
 
 The intuitive understanding of `Elo Score` is assuming levels that team *A* and *B* perform in is $R_A$ and $R_B$, then the expectation of *A* wins *B* is
 
-$$
+\[
 E_A = \frac{1}{1+10^{\frac{R_B - R_A}{400}}}
-$$
+\]
 
 the expectation of *B* wins *A* is
 
-$$
+\[
 E_B = \frac{1}{1+10^{\frac{R_A - R_B}{400}}}
-$$
+\]
 
 If the true scoring $S_A$ is different from $E_A$, then the level score would be adjusted by
 
-$$
+\[
 R_A^{new} = R_A^{old} + K(S_A - R_A^{old})
-$$
+\]
 
 and $K$ will be given accordingly
 
