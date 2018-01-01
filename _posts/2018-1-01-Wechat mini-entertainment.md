@@ -39,7 +39,7 @@ friends = itchat.get_friends(update=True)[0: ]
 <img src="/sec1.png" class="fit image">
 
 
-2. 
+2. extract male/female friends information
 
 ```python
 # Initialization
@@ -89,7 +89,7 @@ plt.show()
 
 
 
-3. 
+3. friends' signature mining
 
 ```python
 import re
