@@ -2,7 +2,7 @@
 title: "Wechat mini-project for fun"
 author: "REX(RUIZHE) ZHOU"
 categories: analysis
-date: "1/1/2018"
+date: "31/12/2018"
 ---
 
 **Introduction**
