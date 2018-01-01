@@ -4,7 +4,9 @@ author: "REX(RUIZHE) ZHOU"
 categories: analysis
 date: "1/1/2018"
 ---
-
+<script type="text/javascript" async  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+   
 **Introduction**
 
 2017-2018 NBA season has been started for three months (Oct to Dec), and I conduct a nba win/loss prediction for the
@@ -19,21 +21,21 @@ The `Elo rating system` is a method for calculating the relative skill levels of
 
 The intuitive understanding of `Elo Score` is assuming levels that team *A* and *B* perform in is $R_A$ and $R_B$, then the expectation of *A* wins *B* is
 
-\[
+$$
 E_A = \frac{1}{1+10^{\frac{R_B - R_A}{400}}}
-\]
+$$
 
 the expectation of *B* wins *A* is
 
-\[
+$$
 E_B = \frac{1}{1+10^{\frac{R_A - R_B}{400}}}
-\]
+$$
 
 If the true scoring $S_A$ is different from $E_A$, then the level score would be adjusted by
 
-\[
+$$
 R_A^{new} = R_A^{old} + K(S_A - R_A^{old})
-\]
+$$
 
 and $K$ will be given accordingly
 
