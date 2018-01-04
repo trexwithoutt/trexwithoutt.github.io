@@ -2,7 +2,7 @@
 layout: page
 title: About 
 ---
-[Resume](http://trexwithoutt.github.io/assets/RZ-Resume.pdf)
+[Resume](http://trexwithoutt.github.io/assets/RZ-Project.pdf)
 
 <br>
 
