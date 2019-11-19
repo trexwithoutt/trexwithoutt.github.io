@@ -26,6 +26,9 @@ then a fairly rapid rise in temperature mid-February to May. And so on.
 **Reproduce Tufte plot on San Francisco Weather Data**
 (*[Data Source](https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master/data/weather2011.rda)*)
 
+<details><summary>Code</summary>
+<p>
+
 ```r
 load("weather2011.rda")
 dgr_fmt <- function(x, ...) {
@@ -228,6 +231,8 @@ finalPlot = function(temp, precip){
 finalPlot(temp = laxWeather, precip = laxMonthlyPrecip)
 
 ```
+</p>
+</details>
 
 [<img src="/assets/rz_weatherplot_reproduce-1.jpg" class="fit image"> ]({{ "/assets/rz_weatherplot_reproduce-1.jpg" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
 
@@ -240,7 +245,9 @@ and precipitation to make model and analyze. The analysis he did has included as
 was based on Edward Tufts's plot, and i tried to contain the similar context as Edward did in his analysis. 
 
 
-
+<details><summary>Code</summary>
+<p>
+        
 ```r
 
 dgr_fmt <- function(x, ...) {
@@ -384,6 +391,8 @@ finalPlot_c = function(ltemp, lpre, stemp, spre){
 
 finalPlot_c(ltemp = laxWeather, lpre = laxMonthlyPrecip, stemp = sfoWeather,spre = sfoMonthlyPrecip)
 ```
+</p>
+</details>
 
 [<img src="/assets/rz_weather_compare-1.jpg" class="fit image"> ]({{ "/assets/rz_weather_compare-1.jpg" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
 
@@ -392,6 +401,9 @@ The [dataset](https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master
 Thus i changed the year to be 2015 from 2011 to get weather data of Jan 2015. Keep doing so to gather all 12 months data source. 
 I created a csv by myself which contain 365 rows and 12 variables(i concatened precip record with precip year.) The dataset enabled me to do the following process.
 
+<details>
+        <summary>Code</summary>
+        <p>
 ```r
 #Creating a csv file by collecting data from URL: 
 #http://www.wrh.noaa.gov/climate/monthdisp.php?stn=KLAX&p=temperature&mo
@@ -509,4 +521,7 @@ finalPlot_2015 = function(temp, precip){
 
 finalPlot_2015(temp = LA2015, precip = LA2015precip)
 ```
+</p>
+</details>
+
 [<img src="/assets/rz_LA2015-1 2.jpg" class="fit image"> ]({{ "/assets/rz_LA2015-1 2.jpg" | "https://github.com/trexwithoutt/trexwithoutt.github.io/blob/master" }})
